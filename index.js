@@ -95,9 +95,11 @@ class FormValidator {
       data[value] = input.value;
     });
 
-    this.hnadleClear();
+    //send data to server
+
+    this.handleClear();
   }
-  hnadleClear() {
+  handleClear() {
     this.fields.map((value) => {
       const input = document.querySelector(`#${value}`);
       input.value = "";
