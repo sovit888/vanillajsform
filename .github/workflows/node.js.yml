@@ -5,7 +5,7 @@ name: Deployment to digital ocean ci cd pipeline method
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master ]
 
 jobs:
   deploy:
